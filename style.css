@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --primary: #f4d04e;
+  --secondary: #121212;
+  --terciary: #6b6b6b;
+  --white: #ffffff;
+
+  --mobile: 375px;
+  --desktop: 1440px;
+}
+
+*,
+*::after,
+*::before {
+  font-weight: 500;
+  box-sizing: border-box;
+  color: var(--secondary);
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-size: 1.6rem;
+  background-color: var(--primary);
+  color: var(--terciary);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+p, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.row,
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.blog {
+  width: 90%;
+  max-width: 34rem;
+  border-radius: 2rem;
+  padding: 2rem;
+  border: 0.1rem solid var(--secondary);
+  background: var(--white);
+  -webkit-box-shadow: 5px 5px 0px 0px rgba(18, 18, 18, 1);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(18, 18, 18, 1);
+  box-shadow: 5px 5px 0px 0px rgba(18, 18, 18, 1);
+}
+
+.blog-img {
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
+  position: relative;
+  object-fit: cover;
+}
+
+.blog-content {
+  padding: 0.5rem;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.tag {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 800;
+  background: var(--primary);
+}
+
+.title {
+  width: 100%;
+  font-weight: 800;
+}
+
+.text {
+  font-size: 1.5rem;
+  color: var(--terciary);
+}
+
+.autor {
+  gap: 2rem;
+}
+
+.autor-img {
+  width: 4rem;
+}
+
+.author-name {
+  font-weight: 800;
+}
