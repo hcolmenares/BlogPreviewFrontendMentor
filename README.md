@@ -15,11 +15,11 @@ Hi! This is my solution to the [Blog preview card challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./images/screenshot-full.png)
+![](./assets/images/screenshot-full.png)
 
 This is an example of the component in a "desktop" resolution.
 
-![](./images/screenshot-movile.png)
+![](./assets/images/screenshot-movile.png)
 
 As you can see, the component looks good in mobile resolutions. In this example, the width resolution was set to 375px.
 
