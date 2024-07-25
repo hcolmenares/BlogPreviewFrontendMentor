@@ -91,6 +91,11 @@ p, h3 {
 .title {
   width: 100%;
   font-weight: 800;
+  cursor: pointer;
+}
+
+.title:hover {
+  color: var(--primary);
 }
 
 .text {
